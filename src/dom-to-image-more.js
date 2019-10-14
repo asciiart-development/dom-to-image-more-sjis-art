@@ -250,6 +250,7 @@
                 });
 
             function cloneStyle() {
+                let source, target;
                 copyStyle(window.getComputedStyle(original), clone.style);
 
                 function copyStyle(source, target) {
